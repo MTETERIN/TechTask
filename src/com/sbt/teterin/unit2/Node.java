@@ -5,6 +5,10 @@ import com.sbt.teterin.unit3.Wrapper;
 /**
  * Created by MrYcropchick on 12.12.2017.
  */
+
+/**
+ * Linked List Node with StartPosition, EndPosition of Text & Type Of Wrapper
+ */
 public class Node {
     private int startPosition;
     private int endPosition;

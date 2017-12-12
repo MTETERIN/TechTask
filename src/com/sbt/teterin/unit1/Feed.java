@@ -3,6 +3,10 @@ package com.sbt.teterin.unit1;
 /**
  * Created by MrYcropchick on 12.12.2017.
  */
+
+/**
+ * The Unit Help Me Test Unit.
+ */
 public class Feed {
     private String output;
 
@@ -15,8 +19,4 @@ public class Feed {
         return output;
     }
 
-
-    public void setOutput(String output) {
-        this.output = output;
-    }
 }

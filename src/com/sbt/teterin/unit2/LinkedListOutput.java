@@ -5,6 +5,10 @@ import com.sbt.teterin.unit3.Wrapper;
 /**
  * Created by MrYcropchick on 12.12.2017.
  */
+
+/**
+ * Typical Linked List
+ */
 public class LinkedListOutput {
     public Node head;
 

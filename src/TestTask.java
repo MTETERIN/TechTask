@@ -9,8 +9,10 @@ public class TestTask {
 
     public static void main(String[] args)
     {
+        //Test Case for our Solution
         Feed feed = new Feed("Obama visited Facebook headquarters: http://bit.ly/xyz @elversatile");
         TweetFeatures tweetFeatures = new TweetFeatures();
+        //Get Some Permission to Test example
         tweetFeatures.getOutput().add(0,5,new Entity());
         tweetFeatures.getOutput().add(5,14,new NormalText());
         tweetFeatures.getOutput().add(14,22,new Entity());
